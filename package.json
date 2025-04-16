@@ -1,18 +1,18 @@
 {
-  "name": "tusky-whatsapp",
+  "name": "lbot-whatsapp",
   "version": "3.2.0",
   "description": "Bot brasileiro para Whatsapp com diversas utilidades para o dia-a-dia.",
   "type": "module",
   "main": "dist/app.js",
   "scripts": {
-    "start": "node dist/app.js",
+    "start": "node dist/app.js --legacy-peer-deps",
     "prestart": "yarn install --prod",
     "dev": "yarn run build && node dist/app.js",
     "build": "tsc"
   },
   "author": "Leal",
   "license": "GPL-3.0-only",
-  "repository": "git+https://github.com/Nickz1n/Tusky-Whatsapp.git",
+  "repository": "git+https://github.com/victorsouzaleal/lbot-whatsapp.git",
   "keywords": [
     "whatsapp",
     "whatsapp-bot",
@@ -61,7 +61,7 @@
     "genius-lyrics": "^4.2.9",
     "google-sr": "^5.0.0",
     "instagram-url-direct": "^2.0.2",
-    "jimp": "^0.22.12",
+    "jimp": "^0.16.13",
     "jsdom": "^24.1.1",
     "moment-timezone": "^0.5.47",
     "node-cache": "^5.1.2",
