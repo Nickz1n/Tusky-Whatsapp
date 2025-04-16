@@ -1,5 +1,5 @@
 {
-  "name": "lbot-whatsapp",
+  "name": "tusky-whatsapp",
   "version": "3.2.0",
   "description": "Bot brasileiro para Whatsapp com diversas utilidades para o dia-a-dia.",
   "type": "module",
@@ -12,7 +12,7 @@
   },
   "author": "Leal",
   "license": "GPL-3.0-only",
-  "repository": "git+https://github.com/victorsouzaleal/lbot-whatsapp.git",
+  "repository": "git+https://github.com/Nickz1n/Tusky-Whatsapp.git",
   "keywords": [
     "whatsapp",
     "whatsapp-bot",
