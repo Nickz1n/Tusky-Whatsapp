@@ -335,7 +335,7 @@ export async function nomeautorCommand(client, botInfo, message, group) {
 export async function prefixoCommand(client, botInfo, message, group) {
     const botController = new BotController();
     const adminCommands = commandsAdmin(botInfo);
-    const supportedPrefixes = ["!", "#", ".", "*", "/"];
+    const supportedPrefixes = ["!", "#", ".", "*", "/", "-"];
     if (!message.args.length) {
         throw new Error(messageErrorCommandUsage(botInfo, message));
     }
